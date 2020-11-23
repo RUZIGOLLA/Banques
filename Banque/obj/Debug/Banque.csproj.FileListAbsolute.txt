@@ -4,3 +4,10 @@ C:\Users\33670\source\repos\Banque\Banque\bin\Debug\Banque.pdb
 C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.csprojAssemblyReference.cache
 C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.exe
 C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.pdb
+C:\Users\epsi\project\Banques\Banque\bin\Debug\Banque.exe.config
+C:\Users\epsi\project\Banques\Banque\bin\Debug\Banque.exe
+C:\Users\epsi\project\Banques\Banque\bin\Debug\Banque.pdb
+C:\Users\epsi\project\Banques\Banque\obj\Debug\Banque.csprojAssemblyReference.cache
+C:\Users\epsi\project\Banques\Banque\obj\Debug\Banque.csproj.CoreCompileInputs.cache
+C:\Users\epsi\project\Banques\Banque\obj\Debug\Banque.exe
+C:\Users\epsi\project\Banques\Banque\obj\Debug\Banque.pdb
