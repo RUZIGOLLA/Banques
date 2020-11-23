@@ -10,9 +10,10 @@ namespace Banque
     {
         public string Libelle { get; set; }
         public int Prix { get; set; }
-        public Produit()
+        public Produit(string libelle, int prix)
         {
-
+            Libelle = libelle;
+            Prix = prix;
         }
 
         public override string ToString()

@@ -8,17 +8,19 @@ namespace Banque
 {
     class Utilisateur
     {
+        public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
         private int Solde { get; set; }
         private List<Produit> Produits { get; set; }
-        public Utilisateur(string usr, string pswd, int solde)
+        public Utilisateur(int id, string usr, string pswd, int solde)
         {
+            Id = id;
             Username = usr;
             Password = pswd;
             Solde = solde;
         }
-
+        public Utilisateur() { }
         private int Deduction(int prix)
         {
             return Solde - prix;
