@@ -6,10 +6,18 @@ using System.Threading.Tasks;
 
 namespace Banque
 {
-    class Program
+    class Produit
     {
-        static void Main(string[] args)
+        public string Libelle { get; set; }
+        public int Prix { get; set; }
+        public Produit()
         {
+
+        }
+
+        public override string ToString()
+        {
+            return Libelle + " " + Prix;
         }
     }
 }
