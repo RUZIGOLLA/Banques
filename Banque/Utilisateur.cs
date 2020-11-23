@@ -12,9 +12,11 @@ namespace Banque
         public string Password { get; set; }
         private int Solde { get; set; }
         private List<Produit> Produits { get; set; }
-        public Utilisateur()
+        public Utilisateur(string usr, string pswd, int solde)
         {
-
+            Username = usr;
+            Password = pswd;
+            Solde = solde;
         }
 
         private int Deduction(int prix)
