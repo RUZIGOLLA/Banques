@@ -1,0 +1,6 @@
+C:\Users\33670\source\repos\Banque\Banque\bin\Debug\Banque.exe.config
+C:\Users\33670\source\repos\Banque\Banque\bin\Debug\Banque.exe
+C:\Users\33670\source\repos\Banque\Banque\bin\Debug\Banque.pdb
+C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.csprojAssemblyReference.cache
+C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.exe
+C:\Users\33670\source\repos\Banque\Banque\obj\Debug\Banque.pdb
