@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Banque
 {
-    class Produit
+    public class Produit
     {
         public string Libelle { get; set; }
         public int Prix { get; set; }

@@ -27,7 +27,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\epsi\\project\\Banques\\Banque\\Banque.csproj": {
+                "projectPath": "C:\\Users\\epsi\\project\\Banques\\Banque\\Banque.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -70,6 +74,16 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\epsi\\project\\Banques\\Banque\\Banque.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\epsi\\project\\Banques\\Banque\\Banque.csproj",
+        "projectName": "Banque",
+        "projectPath": "C:\\Users\\epsi\\project\\Banques\\Banque\\Banque.csproj"
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

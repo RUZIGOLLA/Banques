@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Banque
 {
-    class Program
+    public class Program
     {
-        static List<Utilisateur> Utilisateurs = new List<Utilisateur>();
-        static List<Produit> Produits = new List<Produit>();
+        public static List<Utilisateur> Utilisateurs = new List<Utilisateur>();
+        public static List<Produit> Produits = new List<Produit>();
         static Utilisateur utilisateurCo = new Utilisateur();
         static void Main(string[] args)
         {
@@ -21,22 +21,21 @@ namespace Banque
 
         public static void runProg()
         {
-            utilisateurCo = getUser();
+            utilisateurCo = getUser("Norman", "nono");
 /*            while (1)
             {
                // chooseProduct();
             }*/
         }
 
-        public static Utilisateur getUser()
+        public static Utilisateur getUser(string Username, string Password)
         {
             Utilisateur user = new Utilisateur();
-            Console.WriteLine("Type a userName");
-            user.Username = Console.ReadLine(); // R
-            Console.WriteLine("Type a password");
-            user.Password = Console.ReadLine(); // R
+            user.Username = Username; // R
+            user.Password = Password; // R
             return Utilisateurs.FirstOrDefault(u => u.Username == user.Username && u.Password == user.Password);
         }
+
         public static int populateUser()
         {
             Utilisateurs.Add(new Utilisateur(0, "Norman", "nono", 35));

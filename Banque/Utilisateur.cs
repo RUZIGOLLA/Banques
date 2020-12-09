@@ -6,29 +6,44 @@ using System.Threading.Tasks;
 
 namespace Banque
 {
-    class Utilisateur
+    public class Utilisateur
     {
         public int Id { get; set; }
         public string Username { get; set; }
         public string Password { get; set; }
-        private int Solde { get; set; }
-        private List<Produit> Produits { get; set; }
+        public int Solde { get; set; }
+        public List<Produit> Produits { get; set; }
         public Utilisateur(int id, string usr, string pswd, int solde)
         {
             Id = id;
             Username = usr;
             Password = pswd;
             Solde = solde;
+            Produits = new List<Produit>();
         }
         public Utilisateur() { }
-        private int Deduction(int prix)
+        public int Deduction(int prix)
         {
-            return Solde - prix;
+            if (Solde - prix >= 0)
+            {
+                Solde -= prix;
+                return 1;
+            }
+            else return -1;
         }
         public int Achat(Produit produit)
         {
-            Produits.Add(produit);
-            Solde = Deduction(produit.Prix);
+            if (Deduction(produit.Prix) == 1)
+            {
+                Produits.Add(produit);
+                return 1;
+            }
+            return -1;
+        }
+
+        public int Crediter(int amount)
+        {
+            Solde += amount;
             return 1;
         }
     }
